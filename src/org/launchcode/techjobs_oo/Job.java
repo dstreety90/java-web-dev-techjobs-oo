@@ -123,7 +123,7 @@ public class Job {
         else coreStr = coreCompetency.getValue();
 
 
-        return  "ID: " + id + " \n"
+        return  "\nID: " + id + " \n"
                 + "Name: " + nameStr + " \n"
                 + "Employer: " + employerStr + " \n"
                 + "Location: " + locationStr + " \n"

@@ -6,6 +6,7 @@ public abstract class JobField {
     private int id;
     private static int nextId = 1;
     private String value;
+
     public JobField(String value) {
         this.value = value;
         id = nextId;
